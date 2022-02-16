@@ -1,0 +1,62 @@
+{
+  "test_cases":
+  [
+    {
+      "node_count": 25,
+      "single_process_per_node": "1",
+      "in_buffer": "32",
+      "cn_buffer": "1",
+      "node_theo_bw": "12.5",
+      "node_acc_bw": "9",
+      "delay_ns": "120",
+      "data_rate": "8400",
+      "node_achieved_bw": "8000",
+      "microslice_size": "1024",
+      "ts_component": "1000",
+      "flesnet_dir": "/Volumes/DataFiles-D/Lise/FLESnet/lise-6401019-fles_libfabric_DFS/",
+      "dfs_dir": "/Volumes/DataFiles-D/Lise/FLESnet/lise-6401007-fles_libfabric_DFS",
+      "bw_comp_plot": "/Volumes/DataFiles-D/Lise/FLESnet/lise-6401007-fles_libfabric_DFS/comp-lise-6401019-fles_libfabric_DFS/input.comparison.statistics_bandwidth_over_time.pdf",
+      "ts_completion_duration_comp_plot": "/Volumes/DataFiles-D/Lise/FLESnet/lise-6401007-fles_libfabric_DFS/comp-lise-6401019-fles_libfabric_DFS/compute.comparison.timeslice_completion_overall_statistics.pdf",
+      "input_buffer_sent_comp_plot": "/Volumes/DataFiles-D/Lise/FLESnet/lise-6401007-fles_libfabric_DFS/comp-lise-6401019-fles_libfabric_DFS/input.comparison.sent_buffer_fill_level_individual_statistics.pdf",
+      "input_buffer_added_comp_plot": "/Volumes/DataFiles-D/Lise/FLESnet/lise-6401007-fles_libfabric_DFS/comp-lise-6401019-fles_libfabric_DFS/input.comparison.added_buffer_fill_level_individual_statistics.pdf"
+    },
+    {
+      "node_count": 50,
+      "single_process_per_node": "1",
+      "in_buffer": "32",
+      "cn_buffer": "1",
+      "node_theo_bw": "12.5",
+      "node_acc_bw": "9",
+      "delay_ns": "120",
+      "data_rate": "8400",
+      "node_achieved_bw": "8000",
+      "microslice_size": "1024",
+      "ts_component": "1000",
+      "flesnet_dir": "/Volumes/DataFiles-D/Lise/FLESnet/lise-6401064-fles_libfabric_DFS/",
+      "dfs_dir": "/Volumes/DataFiles-D/Lise/FLESnet/lise-6401075-fles_libfabric_DFS",
+      "bw_comp_plot": "/Volumes/DataFiles-D/Lise/FLESnet/lise-6401075-fles_libfabric_DFS/comp-lise-6401064-fles_libfabric_DFS/input.comparison.statistics_bandwidth_over_time.pdf",
+      "ts_completion_duration_comp_plot": "/Volumes/DataFiles-D/Lise/FLESnet/lise-6401075-fles_libfabric_DFS/comp-lise-6401064-fles_libfabric_DFS/compute.comparison.timeslice_completion_overall_statistics.pdf",
+      "input_buffer_sent_comp_plot": "/Volumes/DataFiles-D/Lise/FLESnet/lise-6401075-fles_libfabric_DFS/comp-lise-6401064-fles_libfabric_DFS/input.comparison.sent_buffer_fill_level_individual_statistics.pdf",
+      "input_buffer_added_comp_plot": "/Volumes/DataFiles-D/Lise/FLESnet/lise-6401075-fles_libfabric_DFS/comp-lise-6401064-fles_libfabric_DFS/input.comparison.added_buffer_fill_level_individual_statistics.pdf"
+    },
+    {
+      "node_count": 100,
+      "single_process_per_node": "1",
+      "in_buffer": "32",
+      "cn_buffer": "1",
+      "node_theo_bw": "12.5",
+      "node_acc_bw": "9",
+      "delay_ns": "120",
+      "data_rate": "8400",
+      "node_achieved_bw": "8000",
+      "microslice_size": "1024",
+      "ts_component": "1000",
+      "flesnet_dir": "/Volumes/DataFiles-D/Lise/FLESnet/lise-6401161-fles_libfabric_DFS/",
+      "dfs_dir": "/Volumes/DataFiles-D/Lise/FLESnet/lise-6401149-fles_libfabric_DFS",
+      "bw_comp_plot": "/Volumes/DataFiles-D/Lise/FLESnet/lise-6401149-fles_libfabric_DFS/comp-lise-6401161-fles_libfabric_DFS/input.comparison.statistics_bandwidth_over_time.pdf",
+      "ts_completion_duration_comp_plot": "/Volumes/DataFiles-D/Lise/FLESnet/lise-6401149-fles_libfabric_DFS/comp-lise-6401161-fles_libfabric_DFS/compute.comparison.timeslice_completion_overall_statistics.pdf",
+      "input_buffer_sent_comp_plot": "/Volumes/DataFiles-D/Lise/FLESnet/lise-6401149-fles_libfabric_DFS/comp-lise-6401161-fles_libfabric_DFS/input.comparison.sent_buffer_fill_level_individual_statistics.pdf",
+      "input_buffer_added_comp_plot": "/Volumes/DataFiles-D/Lise/FLESnet/lise-6401149-fles_libfabric_DFS/comp-lise-6401161-fles_libfabric_DFS/input.comparison.added_buffer_fill_level_individual_statistics.pdf"
+    }
+  ]
+}

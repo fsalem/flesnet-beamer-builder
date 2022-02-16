@@ -1,0 +1,38 @@
+\documentclass[10pt]{beamer}
+
+\usetheme[progressbar=frametitle]{metropolis}
+\usepackage{appendixnumberbeamer}
+
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+
+\usepackage{xspace}
+\newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
+
+\title{FLESnet Meeting}
+%\subtitle{A modern beamer theme}
+%\date{\today}
+\date{}
+\author{\underline{Farouk Salem} \\
+			Florian Schintke}
+%\institute{Center for modern beamer themes}
+\titlegraphic{\hfill\includegraphics[height=1.5cm]{logo.png}}
+
+\begin{document}
+
+\maketitle
+
+\setbeamertemplate{frame footer}{FLESnet Meeting}
+
+\begin{frame}{Table of contents}
+  \setbeamertemplate{section in toc}[sections numbered]
+  \tableofcontents[hideallsubsections]
+\end{frame}
+
+\input{scenarios}
+
+
+\end{document}

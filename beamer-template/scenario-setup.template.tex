@@ -1,0 +1,23 @@
+\section{Scenario\#${tc_index}}
+\subsection{Setup}
+\begin{frame}[fragile]{Setup}
+  \begin{itemize}
+      \item ${nodes_count} nodes are used
+            \begin{itemize}
+                \item ${input_count} Input processes \& ${compute_count} Compute processes
+                \item ${input_buffer}\,GB Input buffer/Input node
+                \item ${compute_buffer}\,GB Compute buffer/IN-CN connection
+                \item Theo. agg. bandwidth: ${node_theo_bw}\,GB/s * $input_count nodes \textrightarrow ${theo_agg_bw}\,GB/s
+                \item Achievable agg. bandwidth: ~${node_acc_bw}\,GB/s * ${input_count} input processes \textrightarrow ${achievable_agg_bw}\,GB/s
+          \end{itemize}
+      #\item Delay\_ns: ${delay_ns}
+      \item Data Generation Rate: ${data_rate} MB/s
+      \item Expected datarate: ~${expected_data_rate}\,GB/s per input node regardless system size
+      \item Mean(microslice size): ${microslice_size}\,K
+        \begin{itemize}
+            \item TS component = ${ms_count}\,MS = ${ts_comp_size}\,MB
+            \item Timeslice size = ${timeslice_size}\,MB
+          \end{itemize}
+      \item Achieved agg. bandwidth = ${acc_agg_bw}\,GB/s
+  \end{itemize}
+\end{frame}
